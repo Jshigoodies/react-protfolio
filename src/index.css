@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* no idea what the above is */
+nav {
+  background-color: #333;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.name {
+  background-color: gray;
+  margin: 0 0 0 0;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+  background-color: black;
+}
