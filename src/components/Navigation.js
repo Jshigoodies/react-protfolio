@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navigation() {
-    const location = useLocation();
-    const [activeSection, setActiveSection] = useState(location.pathname);
+    const [activeSection, setActiveSection] = useState("/react-protfolio"); //automatically goes to the about page when opening portfolio the first time.
 
     const handleSectionClick = (section) => {
         setActiveSection(section);
@@ -14,9 +13,9 @@ function Navigation() {
           <ul>
             <li>
               <Link
-                to="/"
-                className={activeSection === "/" ? "active" : ""}
-                onClick={() => handleSectionClick("/")}
+                to="/react-protfolio"
+                className={activeSection === "/react-protfolio" ? "active" : ""}
+                onClick={() => handleSectionClick("/react-protfolio")}
               >
                 About Me
               </Link>
