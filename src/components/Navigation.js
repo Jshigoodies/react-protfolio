@@ -10,7 +10,7 @@ function Navigation() {
 
       return (
         <nav>
-          <ul>
+          <ul className="navbarUL">
             <li>
               <Link
                 to="/react-protfolio"

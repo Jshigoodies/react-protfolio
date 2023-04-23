@@ -2,7 +2,8 @@ import React from 'react';
 
 function Contact() {
     return (
-        <div>
+        <div className='contactDiv'>
+            <h1>Contact</h1>
             <p>contact here!</p>
         </div>
     );

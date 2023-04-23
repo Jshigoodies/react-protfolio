@@ -1,4 +1,5 @@
 body {
+  background-color: rgba(128, 128, 128, 0.527);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -29,7 +30,7 @@ li {
   display: inline-block;
 }
 
-a {
+.navbarUL li a {
   display: block;
   color: white;
   text-align: center;
@@ -48,3 +49,42 @@ nav ul li a.active {
   font-weight: bold;
   background-color: black;
 }
+
+.avatar-img {
+  width: 200px;
+  height: 150px;
+  border: 7px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+.aboutmeDiv {
+  text-align: center;
+  border: 7px solid black;
+}
+.portfolioDiv {
+  text-align: center;
+  border: 7px solid black;
+}
+.contactDiv {
+  text-align: center;
+  border: 7px solid black;
+}
+.resumeDiv {
+  text-align: center;
+  border: 7px solid black;
+}
+
+
+
