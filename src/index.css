@@ -76,6 +76,8 @@ p {
 .portfolioDiv {
   text-align: center;
   border: 7px solid black;
+  display: block;
+  flex-wrap: wrap;
 }
 .contactDiv {
   text-align: center;
@@ -84,6 +86,16 @@ p {
 .resumeDiv {
   text-align: center;
   border: 7px solid black;
+}
+
+.project-item {
+  border: 5px solid rgb(61, 56, 56);
+  margin: 10px;
+}
+
+.ttsImg {
+  height: 200px;
+  width: 400px;
 }
 
 
