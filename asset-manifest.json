@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-protfolio/static/css/main.3fd506e7.css",
-    "main.js": "/react-protfolio/static/js/main.5c20bf05.js",
+    "main.css": "/react-protfolio/static/css/main.554ff7e4.css",
+    "main.js": "/react-protfolio/static/js/main.546b08c3.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-protfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/avatar.png": "/react-protfolio/static/media/avatar.d02da20d08c1e8518b4c.png",
     "static/media/text-to-speech.png": "/react-protfolio/static/media/text-to-speech.e44b9a7bde098f46c77c.png",
+    "static/media/resume Jshi.pdf": "/react-protfolio/static/media/resume Jshi.396a96532ec989538274.pdf",
+    "static/media/animanga-logo.jpg": "/react-protfolio/static/media/animanga-logo.ade42586e71393eb96fc.jpg",
     "index.html": "/react-protfolio/index.html",
-    "main.3fd506e7.css.map": "/react-protfolio/static/css/main.3fd506e7.css.map",
-    "main.5c20bf05.js.map": "/react-protfolio/static/js/main.5c20bf05.js.map",
+    "main.554ff7e4.css.map": "/react-protfolio/static/css/main.554ff7e4.css.map",
+    "main.546b08c3.js.map": "/react-protfolio/static/js/main.546b08c3.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-protfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fd506e7.css",
-    "static/js/main.5c20bf05.js"
+    "static/css/main.554ff7e4.css",
+    "static/js/main.546b08c3.js"
   ]
 }
