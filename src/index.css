@@ -93,10 +93,32 @@ p {
   margin: 10px;
 }
 
+.project-item:hover {
+  background-color: rgb(111, 119, 119);
+}
+
 .ttsImg {
   height: 200px;
   width: 400px;
 }
 
+#contact-form {
+  margin: 10px;
+}
+
+.pdf {
+  padding: 10px;
+  border: 1px solid rgb(61, 56, 56);
+  background-color: white;
+}
+
+.pdfDiv {
+  margin: 30px;
+}
+
+footer {
+  padding: 20px;
+  border: 7px solid black;
+}
 
 

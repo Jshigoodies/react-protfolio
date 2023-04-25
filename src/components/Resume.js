@@ -1,6 +1,8 @@
 import React from 'react';
+import pdf from '../assets/resume Jshi.pdf'
 
 function Resume() {
+
     return (
         <div className='resumeDiv'>
             <h1>Resume</h1>
@@ -34,6 +36,10 @@ function Resume() {
                 <li><a href="https://www.youtube.com/channel/UCXvSIyzcIUhaAJyMNiw38QQ">YouTube</a></li> <br></br>
                 <li><a href="https://jshigoodies.github.io/html_is_life/">Personal website</a></li> <br></br>
             </ul>
+            <div className='pdfDiv'>
+                <a className='pdf' href={pdf}>Download PDF</a>
+            </div>
+            
         </div>
     );
 }

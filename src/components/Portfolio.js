@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../assets/logo192.png'
 import tts from '../assets/text-to-speech.png'
-
+import selenium from '../assets/selenium.png'
+import animanga from '../assets/animanga-logo.jpg'
 function Portfolio() {
     return (
       <div className="portfolioDiv">
@@ -44,6 +45,25 @@ function Portfolio() {
                 <br/>
                 <br/>
                 <a href='https://www.youtube.com/watch?v=UV62Ks9kzTY'>youtube video</a>
+            </div>
+          </li>
+          <li>
+            <div className='project-item'>
+                <h3>Manga Downloader</h3>
+                <p>Uses python that uses selenium to take screenshots of each page in manga4life</p>
+                <img src={selenium} alt='selenium image' />
+                <a href='https://github.com/Jshigoodies/Manga_Downloader'>Manga Downloader Repo</a>
+            </div>
+          </li>
+          <li>
+            <div className='project-item'>
+                <h3>Animanga</h3>
+                <p>A website made other students from a bootcamp class</p>
+                <img src={animanga} alt='animanga logo image' />
+                <a href='https://github.com/Jshigoodies/Animanga'>Animanga Repo</a>
+                <br />
+                <br />
+                <a href='https://jshigoodies.github.io/Animanga/'>The website</a>
             </div>
           </li>
         </ul>
